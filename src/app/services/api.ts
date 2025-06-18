@@ -7,7 +7,7 @@ import { Category } from '../models/category';
 })
 export class Api {
 
-  readonly BASE_URL = "";
+  readonly BASE_URL = "https://localhost:7010/api/";
 
   books = signal<Book[]>([]);
 
@@ -21,26 +21,35 @@ export class Api {
   }
 
   getBooks() {
-    // const url = this.BASE_URL + "get";
+    const url = this.BASE_URL + "Book/all";
 
-    fetch("/book.json")
+    fetch(url)
     .then(resp => resp.json())
     .then(data => this.books.set(data))
     .catch(err => console.log(err));
   }
 
   async getCategories() {
-    // const url = this.BASE_URL + "get";
+    const url = this.BASE_URL + "Category/all";
 
-    // const books = await fetch(url)
-    // .then(resp => resp.json())
-    // .then(data => this.books.set(data))
-    // .catch(err => console.log(err));
-    this.categories.set([{id : 1, name : "narrativa" }])
+    const books = await fetch(url)
+    .then(resp => resp.json())
+    .then(data => this.categories.set(data))
+    .catch(err => console.log(err));
+    // this.categories.set([{id : 1, name : "narrativa" }])
   }
 
   filterByCategory(id: number) {
-    const url = this.BASE_URL + "get";
+    const url = this.BASE_URL + "Book/bookByCategoryId/"+id;
+
+    const books = fetch(url)
+    .then(resp => resp.json())
+    .then(data => this.books.set(data))
+    .catch(err => console.log(err));
+  }
+
+  filterByText(text: string) {
+    const url = this.BASE_URL + "Book/bookByTitle/"+text;
 
     const books = fetch(url)
     .then(resp => resp.json())

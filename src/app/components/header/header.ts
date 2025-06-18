@@ -14,15 +14,25 @@ import { CommonModule } from '@angular/common';
 })
 export class Header {
 
-  apiServ = inject(Api);
-  selectedCategoryId= -1;
 
-  constructor(){
-    
+  apiServ = inject(Api);
+  selectedCategoryId = -1;
+
+  constructor() {
+
   }
 
   getSelectId() {
     const id = this.selectedCategoryId;
+    console.log(id)
     this.apiServ.filterByCategory(id)
+  }
+
+  filterByText() {
+    const div = document.getElementById("search") as HTMLDivElement;
+    console.log(div);
+    const text = div.innerText;
+    console.log(text);
+    this.apiServ.filterByText(text)
   }
 }
