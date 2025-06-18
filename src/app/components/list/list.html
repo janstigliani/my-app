@@ -1,0 +1,8 @@
+<div class="container">
+    <app-cards 
+    *ngFor="let book of apiServ.books()"
+    book-title="{{book.title}}"
+    book-author="{{book.author}}"
+    ></app-cards>
+    
+</div>

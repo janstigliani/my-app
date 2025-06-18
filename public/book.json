@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Il nome della rosa",
+    "author": "Umberto Eco",
+    "description": "Giallo storico ambientato in un monastero medievale italiano.",
+    "categoryId": 10
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "Distopia classica su un regime totalitario e il controllo del pensiero.",
+    "categoryId": 20
+  },
+  {
+    "id": 3,
+    "title": "Il piccolo principe",
+    "author": "Antoine de Saint-Exupéry",
+    "description": "Favola poetica e filosofica sull'infanzia e l'amore.",
+    "categoryId": 30
+  },
+  {
+    "id": 4,
+    "title": "Orgoglio e pregiudizio",
+    "author": "Jane Austen",
+    "description": "Storia d'amore e critica sociale nell'Inghilterra georgiana.",
+    "categoryId": 40
+  },
+  {
+    "id": 5,
+    "title": "Il Gattopardo",
+    "author": "Giuseppe Tomasi di Lampedusa",
+    "description": "Romanzo storico sulla decadenza dell'aristocrazia siciliana.",
+    "categoryId": 10
+  },
+  {
+    "id": 6,
+    "title": "Delitto e castigo",
+    "author": "Fëdor Dostoevskij",
+    "description": "Studio psicologico di un crimine e della redenzione.",
+    "categoryId": 50
+  },
+  {
+    "id": 7,
+    "title": "Cento anni di solitudine",
+    "author": "Gabriel García Márquez",
+    "description": "Saga familiare nel villaggio immaginario di Macondo.",
+    "categoryId": 60
+  },
+  {
+    "id": 8,
+    "title": "Il signore degli anelli",
+    "author": "J.R.R. Tolkien",
+    "description": "Epico fantasy sul viaggio dell’anello verso Mordor.",
+    "categoryId": 70
+  },
+  {
+    "id": 9,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "description": "Caccia ossessiva alla balena bianca da parte del capitano Ahab.",
+    "categoryId": 50
+  },
+  {
+    "id": 10,
+    "title": "Il ritratto di Dorian Gray",
+    "author": "Oscar Wilde",
+    "description": "Riflessione sull'estetismo, la giovinezza e la moralità.",
+    "categoryId": 40
+  },
+  {
+    "id": 11,
+    "title": "Don Chisciotte della Mancia",
+    "author": "Miguel de Cervantes",
+    "description": "Satira epica delle avventure di un cavaliere idealista.",
+    "categoryId": 50
+  },
+  {
+    "id": 12,
+    "title": "La coscienza di Zeno",
+    "author": "Italo Svevo",
+    "description": "Romanzo introspettivo che esplora la psiche di un uomo moderno.",
+    "categoryId": 10
+  },
+  {
+    "id": 13,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "description": "Futuro distopico in cui i libri sono vietati e bruciati.",
+    "categoryId": 20
+  },
+  {
+    "id": 14,
+    "title": "Siddharta",
+    "author": "Hermann Hesse",
+    "description": "Viaggio spirituale di un giovane indiano alla ricerca dell’illuminazione.",
+    "categoryId": 30
+  },
+  {
+    "id": 15,
+    "title": "La metamorfosi",
+    "author": "Franz Kafka",
+    "description": "Un uomo si sveglia trasformato in un insetto gigante.",
+    "categoryId": 50
+  }
+]

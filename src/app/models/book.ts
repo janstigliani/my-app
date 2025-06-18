@@ -3,6 +3,6 @@ export interface Book {
     title: string,
     author: string,
     description: string,
-    isbn: string,
-    categoryId: number
+    categoryId: number,
+    image?: string
 }

@@ -1,0 +1,28 @@
+*{
+    padding: 4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title, .author {
+    padding: 12px;
+    max-width: 150px;
+}
+
+.image {
+    width: 150px;
+    height: 225px;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.card {
+    display: flex;
+    width: 200px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}

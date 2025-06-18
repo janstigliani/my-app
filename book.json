@@ -4,7 +4,6 @@
     "title": "Il nome della rosa",
     "author": "Umberto Eco",
     "description": "Giallo storico ambientato in un monastero medievale italiano.",
-    "isbn": "9788807888433",
     "categoryId": 10
   },
   {
@@ -12,7 +11,6 @@
     "title": "1984",
     "author": "George Orwell",
     "description": "Distopia classica su un regime totalitario e il controllo del pensiero.",
-    "isbn": "9780451524935",
     "categoryId": 20
   },
   {
@@ -20,7 +18,6 @@
     "title": "Il piccolo principe",
     "author": "Antoine de Saint-Exupéry",
     "description": "Favola poetica e filosofica sull'infanzia e l'amore.",
-    "isbn": "9780156012195",
     "categoryId": 30
   },
   {
@@ -28,7 +25,6 @@
     "title": "Orgoglio e pregiudizio",
     "author": "Jane Austen",
     "description": "Storia d'amore e critica sociale nell'Inghilterra georgiana.",
-    "isbn": "9780141439518",
     "categoryId": 40
   },
   {
@@ -36,7 +32,6 @@
     "title": "Il Gattopardo",
     "author": "Giuseppe Tomasi di Lampedusa",
     "description": "Romanzo storico sulla decadenza dell'aristocrazia siciliana.",
-    "isbn": "9788806220883",
     "categoryId": 10
   },
   {
@@ -44,7 +39,6 @@
     "title": "Delitto e castigo",
     "author": "Fëdor Dostoevskij",
     "description": "Studio psicologico di un crimine e della redenzione.",
-    "isbn": "9788807901798",
     "categoryId": 50
   },
   {
@@ -52,7 +46,6 @@
     "title": "Cento anni di solitudine",
     "author": "Gabriel García Márquez",
     "description": "Saga familiare nel villaggio immaginario di Macondo.",
-    "isbn": "9788807811684",
     "categoryId": 60
   },
   {
@@ -60,7 +53,6 @@
     "title": "Il signore degli anelli",
     "author": "J.R.R. Tolkien",
     "description": "Epico fantasy sul viaggio dell’anello verso Mordor.",
-    "isbn": "9780544003415",
     "categoryId": 70
   },
   {
@@ -68,7 +60,6 @@
     "title": "Moby Dick",
     "author": "Herman Melville",
     "description": "Caccia ossessiva alla balena bianca da parte del capitano Ahab.",
-    "isbn": "9780142437247",
     "categoryId": 50
   },
   {
@@ -76,7 +67,6 @@
     "title": "Il ritratto di Dorian Gray",
     "author": "Oscar Wilde",
     "description": "Riflessione sull'estetismo, la giovinezza e la moralità.",
-    "isbn": "9780141439570",
     "categoryId": 40
   },
   {
@@ -84,7 +74,6 @@
     "title": "Don Chisciotte della Mancia",
     "author": "Miguel de Cervantes",
     "description": "Satira epica delle avventure di un cavaliere idealista.",
-    "isbn": "9788807900067",
     "categoryId": 50
   },
   {
@@ -92,7 +81,6 @@
     "title": "La coscienza di Zeno",
     "author": "Italo Svevo",
     "description": "Romanzo introspettivo che esplora la psiche di un uomo moderno.",
-    "isbn": "9788806221804",
     "categoryId": 10
   },
   {
@@ -100,7 +88,6 @@
     "title": "Fahrenheit 451",
     "author": "Ray Bradbury",
     "description": "Futuro distopico in cui i libri sono vietati e bruciati.",
-    "isbn": "9781451673319",
     "categoryId": 20
   },
   {
@@ -108,7 +95,6 @@
     "title": "Siddharta",
     "author": "Hermann Hesse",
     "description": "Viaggio spirituale di un giovane indiano alla ricerca dell’illuminazione.",
-    "isbn": "9788807820075",
     "categoryId": 30
   },
   {
@@ -116,7 +102,6 @@
     "title": "La metamorfosi",
     "author": "Franz Kafka",
     "description": "Un uomo si sveglia trasformato in un insetto gigante.",
-    "isbn": "9788807901095",
     "categoryId": 50
   }
 ]
