@@ -1,1 +1,11 @@
-<p>header works!</p>
+<Section class="header">
+    <h1 class="title">Bookery</h1>
+    <mat-form-field>
+        <mat-label>Category filter</mat-label>
+        <mat-select [(ngModel)]="selectedCategoryId" >
+            @for (category of apiServ.categories(); track category) {
+            <mat-option [value]="category.id" id="selector" (click)="getSelectId();">{{category.name}}</mat-option>
+            }
+        </mat-select>
+    </mat-form-field>
+</Section>
